@@ -12,7 +12,8 @@ class Book extends Model
     protected  $primaryKey = 'book_id';
 
     protected $fillable = [
-        'user_id',
-        "book_id",
+        'author',
+        'title',
+        'pieces',
     ];
 }

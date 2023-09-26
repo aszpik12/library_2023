@@ -17,8 +17,8 @@ class CopyFactory extends Factory
     public function definition(): array
     {
         return [
-            'user_id' => rand(1, 20),
-            'book_id' => rand(1, 20),,
+            'user_id' => rand(1, 10),
+            'book_id' => rand(1, 10)
         ];
     }
 }
